@@ -5,6 +5,7 @@ class Profile extends Component {
     return (
       <div className="Profile">
         <h1>Profile Page</h1>
+        <a href='/Dashboard'>Dashboard</a>
       </div>
     );
   }
