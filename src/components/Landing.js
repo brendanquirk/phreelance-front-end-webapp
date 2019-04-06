@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
+import { Button } from 'reactstrap'
 
 class Landing extends Component {
   render() {
     return (
       <div className="landing">
-        <h1>Landing Page</h1>
-        <a href='/Dashboard'>Go to Dashboard</a><br/>
-        <a href='/Profile'>Go to Profile Page</a>
+        <h1>Phreelance</h1>
+        <a href='/Login'><Button color="success">Login</Button></a><br/>
+        <a href='/Signup'><Button color="primary">Sign Up</Button></a>
       </div>
     );
   }
